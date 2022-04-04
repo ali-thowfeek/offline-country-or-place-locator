@@ -1,0 +1,46 @@
+{
+  "name": "offline-country-or-place-locator",
+  "version": "2.1.1",
+  "description": "Detects country or a place by a given geometry",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "offline",
+    "reverse",
+    "geocoding",
+    "geocode",
+    "locate",
+    "country",
+    "countries",
+    "city",
+    "cities",
+    "coordinate"
+  ],
+  "author": "Ali Ahamed Thowfeek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-thowfeek/offline-country-or-place-locator.git"
+  },
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "^6.5.0",
+    "@turf/helpers": "^6.5.0",
+    "@turf/intersect": "^6.5.0",
+    "jsonfile": "^6.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@types/jest": "^27.4.0",
+    "@types/jsonfile": "^5.0.2",
+    "jest": "^27.5.1",
+    "semantic-release": "^19.0.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^3.9.10"
+  }
+}
