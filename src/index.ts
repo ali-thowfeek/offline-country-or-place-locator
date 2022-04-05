@@ -1,3 +1,2 @@
-export {findCountryByCoordinate} from './find-methods/find-country-by-coordinate';
-export {findCountriesByPolygon} from './find-methods/find-countries-by-polygon';
-export {CountryInfo} from './types';
+export { findPlaceByCoordinate } from "./find-methods/find-place-by-coordinate";
+export { findPlacesByPolygon } from "./find-methods/find-places-by-polygon";
