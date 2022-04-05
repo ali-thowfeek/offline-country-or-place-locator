@@ -105,4 +105,4 @@ npm run test
 
 ## License
 
-Country Locator is [MIT licensed](LICENSE).
+Offline Country or Place Locator is [MIT licensed](LICENSE).
