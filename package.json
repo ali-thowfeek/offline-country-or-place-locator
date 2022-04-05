@@ -1,7 +1,7 @@
 {
   "name": "offline-country-or-place-locator",
-  "version": "2.1.1",
-  "description": "Detects country or a place by a given geometry",
+  "version": "2.1.2",
+  "description": "Detects country, city or a place by a geometry from a given data set",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
