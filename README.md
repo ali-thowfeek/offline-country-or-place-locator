@@ -1,11 +1,18 @@
 # Offline Country or Place Locator
 
 [![npm](https://img.shields.io/npm/v/offline-country-or-place-locator)](https://www.npmjs.com/package/offline-country-or-place-locator)
-[![license](https://img.shields.io/npm/l/offline-country-or-place-locator)](LICENSE)
+[![license](https://img.shields.io/github/license/ali-thowfeek/offline-country-or-place-locator)](LICENSE)
+[![issues](https://img.shields.io/github/issues/ali-thowfeek/offline-country-or-place-locator)](ISSUES)
 
 Fork of [country-locator](https://github.com/carmi2214/country-locator) by [carmi2214](https://github.com/carmi2214)
 
 Detects country or place/city by a given geometry.
+
+## Installation
+
+```shell script
+npm install offline-country-or-place-locator
+```
 
 ## Why
 
@@ -23,12 +30,6 @@ This approach enables the data set to vary depedning on your requirments. For ex
 Or you can create your own custom data set from tools like:
 
 - [geojson.io](https://geojson.io/)
-
-## Installation
-
-```shell script
-npm install offline-country-or-place-locator
-```
 
 ## Usage
 
